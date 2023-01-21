@@ -4,7 +4,5 @@
 #   SPDX-License-Identifier: BSD-2-Clause
 #
 
-# Add branding components. Since there is only one, called "default",
-# add that one. For examples of other branding components, see
-# the calamares-extensions repository.
-calamares_add_branding_subdirectory( default )
+# Add branding components.
+calamares_add_branding_subdirectory( holoshed )

@@ -32,8 +32,8 @@ Presentation
 
         Image {
             id: background
-            source: "squid.png"
-            width: 200; height: 200
+            source: "holoshed-icon.png"
+            width: 360; height: 360
             fillMode: Image.PreserveAspectFit
             anchors.centerIn: parent
         }

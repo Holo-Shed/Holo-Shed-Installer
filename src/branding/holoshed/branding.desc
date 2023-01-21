@@ -8,7 +8,7 @@
 # Additional styling can be done using the stylesheet.qss
 # file, also in the branding directory.
 ---
-componentName:  default
+componentName:  HoloShed
 
 
 ### WELCOME / OVERALL WORDING
@@ -48,7 +48,7 @@ windowExpanding:    normal
 # This setting is ignored if "fullscreen" is selected for
 # *windowExpanding*, above. If not set, use constants defined
 # in CalamaresUtilsGui, 800x520.
-windowSize: 800px,520px
+windowSize: 1200px,800px
 
 # Placement of Calamares window. Either "center" or "free".
 # Whether "center" actually works does depend on the window
@@ -121,18 +121,19 @@ navigation: widget
 # are visible as buttons there if the corresponding *show* keys
 # are set to "true" (they can also be overridden).
 strings:
-    productName:         "${NAME}"
-    shortProductName:    Generic
-    version:             2020.2 LTS
-    shortVersion:        2020.2
-    versionedName:       Fancy GNU/Linux 2020.2 LTS "Turgid Tuba"
-    shortVersionedName:  FancyGL 2020.2
-    bootloaderEntryName: FancyGL
-    productUrl:          https://calamares.io/
-    supportUrl:          https://github.com/calamares/calamares/wiki
-    knownIssuesUrl:      https://github.com/calamares/calamares/issues
-    releaseNotesUrl:     https://calamares.io/news/
-    donateUrl:           https://kde.org/community/donations/index.php
+    productName:         HoloShed
+    shortProductName:    HoloShed
+    version:             2023.1.21
+    shortVersion:        2023.1.21
+    versionedName:       HoloShed Alpha "Free Waterfall Hr."
+    shortVersionedName:  HoloShed Alpha
+    bootloaderEntryName: HoloShed
+    productUrl:          https://holo-shed.github.io/
+    supportUrl:          https://github.com/Holo-Shed/Holo-Shed-Installer/issues/new/choose
+    knownIssuesUrl:      https://github.com/Holo-Shed/Holo-Shed-Installer/issues/
+    releaseNotesUrl:     https://github.com/Holo-Shed/Holo-Shed-Installer/releases
+    # no affiliation--I just Stan her channel
+    donateUrl:           https://support.linux.mom
 
 # These images are loaded from the branding module directory.
 #
@@ -162,10 +163,10 @@ strings:
 #
 # These filenames can also use substitutions from os-release (see above).
 images:
-    # productBanner:       "banner.png"
-    productIcon:         "squid.png"
-    productLogo:         "squid.png"
-    # productWallpaper:    "wallpaper.png"
+    productBanner:       "banner.png"
+    productIcon:         "holoshed-icon.png"
+    productLogo:         "holoshed-icon.png"
+    productWallpaper:    "holoshed-wallpaper.png"
     productWelcome:      "languages.png"
 
 # Colors for text and background components.
@@ -180,10 +181,10 @@ images:
 # branding component also ships a stylesheet.qss. Then they are
 # the corresponding CSS attributes of #sidebarApp.
 style:
-   SidebarBackground:        "#292F34"
-   SidebarText:              "#FFFFFF"
-   SidebarTextCurrent:       "#292F34"
-   SidebarBackgroundCurrent: "#D35400"
+   SidebarBackground:        "#271b60"
+   SidebarText:              "#7991b4"
+   SidebarTextCurrent:       "#54b0d6"
+   SidebarBackgroundCurrent: "#271b60"
 
 ### SLIDESHOW
 #

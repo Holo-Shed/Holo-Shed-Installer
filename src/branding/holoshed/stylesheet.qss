@@ -1,9 +1,4 @@
 /*
- * SPDX-FileCopyrightText: no
- * SPDX-License-Identifier: CC0-1.0
- */
-
-/*
 A branding component can ship a stylesheet (like this one)
 which is applied to parts of the Calamares user-interface.
 In principle, all parts can be styled through CSS.
@@ -35,7 +30,7 @@ The examples are not exhaustive.
  */
 
 /*
-QPushButton { background-color: green; }
+QPushButton { background-color: "#7991b4"; }
 */
 
 /*** Main application window.
